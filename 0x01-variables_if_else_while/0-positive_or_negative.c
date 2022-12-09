@@ -3,9 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/*
- * main - tells if it's negative or postive
- */
+/* main - tells if it's negative or postive*/
 int main(void)
 {
 	int n;
