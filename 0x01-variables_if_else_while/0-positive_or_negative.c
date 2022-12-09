@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* main - tells if it's negative or postive*/
+/**
+ * main - prints a series of numbers with commas
+ *
+ * Return:always (Success)
+ */
 int main(void)
 {
 	int n;
