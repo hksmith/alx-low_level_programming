@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
 * main - Prints the alphabet in lowercase.
@@ -14,7 +16,10 @@ int main(void)
 	{
 		putchar(num);
 		if (num != 9)
-			putchar(", ");
+		{
+			putchar(",");
+			putchar(" ");
+		}
 	}
 	putchar('\n');
 
