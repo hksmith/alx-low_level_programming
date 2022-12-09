@@ -4,8 +4,7 @@
 /* more headers goes there */
 
 /*
- * betty style doc for function main goes there
- * tells if it's negative or postive
+ * main - tells if it's negative or postive
  */
 int main(void)
 {
