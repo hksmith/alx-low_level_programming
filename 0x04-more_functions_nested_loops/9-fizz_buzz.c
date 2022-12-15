@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * fizz_buzz - print no 1 to 100 with replacing some with fizz buzz
  * void : return no value
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -23,4 +23,6 @@ void fizz_buzz(void)
 		_putchar(' ');
 	}
 	_putchar('\n');
+
+	return (0);
 }
