@@ -1,27 +1,27 @@
 #include "main.h"
 
 /**
- * print_diagonals - print diagonals n times
+ * print_diagonal - print diagonals n times
  * @n : parameter no of \
  * void : no value is retured
  */
 
 void print_diagonal(int n)
 {
-	int i , j;
+	int i, j;
 
-	if(n > 0)
+	if (n > 0)
 	{
-		for(i = 0; i < n; i++)
+		for (i = 0; i < n; i++)
 		{
-			for(j = 0; j <= i; j++)
+			for (j = 0; j <= i; j++)
 			{
-				putchar(' ');
-				if(i == j)
-					putchar('\\');
+				_putchar(' ');
+				if (i == j)
+					_putchar('\\');
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
