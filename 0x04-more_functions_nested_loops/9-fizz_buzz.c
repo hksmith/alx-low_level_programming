@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - print no 1 to 100 with replacing some with fizz buzz
+ * main - print no 1 to 100 with replacing some with fizz buzz
  * void : return no value
  */
 
