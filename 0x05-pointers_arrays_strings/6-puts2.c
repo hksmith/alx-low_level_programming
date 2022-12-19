@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - print every other curreny 
+ * puts2 - print every other curreny
  * followed by a new line
  * @str: string to print the chars from
  */
