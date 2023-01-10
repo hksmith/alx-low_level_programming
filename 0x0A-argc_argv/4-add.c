@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
- * main - prints multiple of two numbers
+ * main - prints addition of given numbers
  * @argc: a variable that holds the no of the comand used to run the program
  * @argv: a array that holds the strigs in argc
  *
@@ -15,6 +15,8 @@
 int main(int argc, char *argv[])
 {
 	int i, j, len, sum;
+
+	char *ptr;
 
 	if (argc == 1)
 	{
